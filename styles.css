@@ -240,7 +240,7 @@ a:active {
       display:grid;
       background-color: rgba(137, 137, 137, 0.377);
       
-      border-radius: clamp(2rem, 0.5vw, 1rem);
+      border-radius: clamp(1rem, 0.5vw, 2rem);
       padding-top: 2px;
       transition: 1s;
       min-width: 200px;
@@ -266,7 +266,7 @@ a:active {
       margin-top:0.5%;
       left:0px;
       top:0px;
-      border-radius: clamp(2rem, 0.5vw, 1rem);
+      border-radius: clamp(1rem, 0.5vw, 2rem);
       min-width: 200px;
       max-width: 300px;
     }
@@ -298,16 +298,15 @@ a:active {
     }
 
     .links{
-      margin-top: calc(20% + 0.5rem);
-      margin-left: 10%;
+      margin-top: calc(0.5rem);
+      margin-left: 20%;
       z-index: 0;
       background-color: transparent;
       object-fit:scale-down;  
       display: grid; 
-      grid-template-rows: 10% 10% 10%;
-      gap: 15%;
+      grid-template-rows: 20px 20px 20px;
+      gap: 5px;
       width: 1rem;
-      height: 100%;
       align-items: center;
     }
 
