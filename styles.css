@@ -234,6 +234,7 @@ a:active {
       position: absolute;
       color: white;
       max-height: 100px;
+      min-height: 90px;
       width: max-content;
       z-index: 0;
       margin-bottom: 50px;
