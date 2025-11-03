@@ -233,7 +233,6 @@ a:active {
     header {
       position: absolute;
       color: white;
-      height: max-content;
       width: max-content;
       z-index: 0;
       margin-bottom: 50px;
