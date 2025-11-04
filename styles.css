@@ -205,7 +205,7 @@ a:active {
 }
 
 /* ----------- iPhone X ----------- */
-@media only screen 
+/* @media only screen 
   and (min-device-width: 0px) 
   and (max-device-width: 600px){ 
     body {
@@ -321,12 +321,12 @@ a:active {
         height: 0.9rem;
         width: 0.9rem;
         display: block;
-        color: white !important; /* Default icon color is white */
+        color: white !important; 
         transition: color 0.3s ease-in-out;
     }
 
     .header .mainCard .links a.linkImg:hover {
-        color: rgb(255, 200, 59) !important; /* Hover color */
+        color: rgb(255, 200, 59) !important;
     }
 
     .container {
@@ -420,7 +420,7 @@ a:active {
     a:active { 
       text-decoration: none; 
     }
-  }
+  } */
 
 /* ----------- Google Pixel ----------- */
 /*@media screen 
