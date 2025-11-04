@@ -85,13 +85,13 @@ header:hover{
 .links{
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-left: 60px;
+  margin-left: 20px;
   z-index: 0;
   background-color: transparent;
   object-fit:scale-down;  
   display: grid; 
   grid-template-rows: auto auto auto;
-  gap: 1%;
+  gap: 2vw;
   width: 2rem;
   align-items: center;
 }
@@ -99,8 +99,8 @@ header:hover{
 .header .mainCard .links a.linkImg,
 .header .mainCard .links a.linkImg:link,
 .header .mainCard .links a.linkImg:visited {
-    height: 120px;
-    width: 120px;
+    height: 2vw;
+    width: 2vw;
     display: block;
     color: white !important; /* Default icon color is white */
     transition: color 0.3s ease-in-out;
