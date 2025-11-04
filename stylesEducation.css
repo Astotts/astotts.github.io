@@ -55,12 +55,13 @@ menu{
     font-size: 2vw;
     font-family: 'Space Mono', monospace;
     overflow: hidden;
-    height: 0%;
+    height: 0px;
     transition: 1s;
 }
 
 .class:hover .classProjects{
-    height: 50%;
+  min-height: 5%;  
+  height: 50%;
 }
 
 h1{
