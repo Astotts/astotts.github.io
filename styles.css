@@ -92,7 +92,6 @@ header:hover{
   grid-template-rows: 10% 10% 10%;
   gap: 15%;
   width: 2rem;
-  height: 100%;
   align-items: center;
 }
 
