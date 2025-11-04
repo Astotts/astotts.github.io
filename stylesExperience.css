@@ -217,7 +217,7 @@ padding-left: 10px;
 padding-right: 10px;
 border-radius: clamp(2rem, 0.5vw, 1rem);
 z-index: 5;
-width: 30%
+width: 40%
 }
 
 .card:hover .projectDescription{
